@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Reporter_Login">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint=" Enter Your Email"
+        android:id="@+id/reporterMailID"
+        android:padding="10dp"
+        android:background="#09af9e"
+        android:shadowColor="#008577"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint=" Enter Your Phone Number"
+        android:id="@+id/reporterPhoneID"
+        android:padding="10dp"
+        android:background="#09af9e"
+        android:shadowColor="#008577"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint=" Enter Your Password"
+        android:id="@+id/reporterPasswordId"
+        android:padding="10dp"
+        android:background="#09af9e"
+        android:shadowColor="#008577"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_margin="20dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Your Area "
+        android:id="@+id/reporterAreaId"
+        android:padding="10dp"
+        android:background="#09af9e"
+        android:shadowColor="#008577"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_margin="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Your Profession"
+        android:id="@+id/reporterProfessionId"
+        android:padding="10dp"
+        android:background="#09af9e"
+        android:shadowColor="#008577"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Sign In"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_background"
+        android:id="@+id/reporterSignInButtonId"
+
+        />
+
+</LinearLayout>

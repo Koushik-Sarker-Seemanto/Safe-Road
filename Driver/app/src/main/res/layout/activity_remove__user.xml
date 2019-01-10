@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Remove_User"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/removeUserText"
+        android:background="#09af9e"
+        android:shadowColor="#008577"
+        android:hint="Type the Car or Plate Number of The Driver you want to remove"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Remove"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background"
+        android:textColor="#ffffff"
+        android:id="@+id/removeNow"
+        />
+
+</LinearLayout>

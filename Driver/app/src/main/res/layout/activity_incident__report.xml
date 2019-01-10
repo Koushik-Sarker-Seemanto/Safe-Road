@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Incident_Report"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Vehicle Plate Number"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/platenumber"
+        android:background="#09af9e"
+        android:shadowColor="#008577"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="General Fine 20$"
+        android:id="@+id/general_fine"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accident related 50$"
+        android:id="@+id/accidental"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lane violation Fine 100$"
+        android:id="@+id/lane_violation"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overlodding Car 50$"
+        android:id="@+id/overloading"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Without registration or fitness 70$"
+        android:id="@+id/fitenss"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#09af9e"
+        android:shadowColor="#008577"
+        android:id="@+id/newIncident"
+        android:hint="if other than above please write"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#09af9e"
+        android:shadowColor="#008577"
+        android:id="@+id/newPanalty"
+        android:hint="Put down the new Panalty Here"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_background"
+        android:id="@+id/submit_incident"
+        android:text="Submit"
+        />
+
+</LinearLayout>

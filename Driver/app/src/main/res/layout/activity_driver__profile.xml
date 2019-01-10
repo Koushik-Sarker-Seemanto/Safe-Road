@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Driver_Profile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Driver Profile"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myList"
+        >
+
+    </ListView>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="View Incident"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:id="@+id/ViewOwnInfo"
+        />
+
+</LinearLayout>
